@@ -14,7 +14,6 @@ class User:
         return self.nickname == other.nickname
 
     def __str__(self):
-        # return f"User(nickname='{self.nickname}', age={self.age})"
         return f"{self.nickname}"
 
 class Video:
